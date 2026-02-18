@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  transition: 0.3s;
+}
+
+.container {
+  width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+input, button {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  cursor: pointer;
+  background: black;
+  color: white;
+  border: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark li span {
+  color: black;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #ddd;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+#progress {
+  height: 100%;
+  width: 0%;
+  background: green;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.dark {
+  background: #111;
+  color: white;
+}
+
+.dark .container {
+  background: #222;
+}
